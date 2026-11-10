@@ -3,7 +3,7 @@ name: R6 Esports - Hourly Results
 on:
   schedule:
     # Every hour at xx:10 KST (and xx:10 UTC, offset is a whole number of hours).
-    - cron: '10 * * * *'
+    - cron: '7,17,27,37,47,57 * * * *'
   workflow_dispatch:
 
 permissions:
